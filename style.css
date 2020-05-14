@@ -1,0 +1,147 @@
+* {
+   /* border: 1px solid black;*/
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+#heading {
+    max-height: 80px;
+    background-color: lightgray;
+    color: black;
+    font-family:'Roboto', sans-serif;
+    text-align: left;
+    padding: 20px 30px; 
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+#heading h1 {
+     
+    margin-right: auto;
+}
+ 
+#heading button {
+ border-radius: 5px; 
+ border-color: black;
+ color:black;  
+ padding: 10px 10px;
+ margin-right:5px;
+  cursor: pointer;
+ font-size: 15px;
+}
+#index {
+    background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg');
+     
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#index_content {
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+     
+}
+#index_content button {
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+#index_content a :hover {
+    background-color: black;
+    color: white;
+    font-size: 23px;;
+}
+@media only screen and (max-width:480px) and (min-width:360px){
+    #heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    #heading h1 {
+        font-size: 25px;
+        margin: 0 auto;
+    }
+    #heading button {
+        padding: 5px 5px;
+    }
+}
+
+
+/* for form.html */
+ #form {
+     line-height: 25px;
+ }
+  #form_heading {
+      width: 100%;
+      height: 60px;
+      padding-top: 20px;
+      text-align: center;
+  }
+  
+  .white_field {
+      padding: 10px 20px;
+      width: 100%;
+      background-color: whitesmoke;
+  }
+  .grey_field {
+      padding: 10px 20px;
+      width: 100%;
+      background-color: lightgray;
+  }
+  #form_submit {
+      text-align: center;
+  }
+  #form_submit input{
+      font-size: 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      padding: 10px;
+  }
+  #form_submit a :hover {
+      color: white;
+      background-color: black;
+  }
+
+/* for resume.html */
+
+.name_row {
+    max-height: 120px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #D3D3D3;
+}
+#info {
+    margin: 10px 30px;
+    line-height: 25px;
+}
+#info ul {
+    margin-left: 20px;
+}
+#info td {
+    text-align: center;
+}
+table {
+    border: 1px solid black;
+    max-width: 450px;
+    width: 80%;
+    
+}
+td {
+    padding: 2px;
+}
+#info h2 {
+    line-height: 40px;
+}
+#end {
+ display: flex;
+ justify-content: space-between;   
+}
+ 

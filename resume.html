@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Ready</title>
+    <link href="style.css" type="text/css" rel=stylesheet >
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+     
+    <div id = "content">
+        <div class="name_row">
+        <h1 id="name"></h1>
+         
+        <p>Mobile No: <span id="phone"></span></p>
+        <p>Email: <span id="email"></span></p>
+    </div><hr>
+      <div id = "info">
+          <div>
+          <h2>Objective</h2>
+          <p>&#9755 <span id="Objective"></span></p>
+        </div>
+        <div>
+          <h2> Personal Information</h2>
+          <ul>
+              <li>Age:<span id="age"></span></li>
+              <li>DOB:<span id="dob"></span></li>
+              <li>Gender: <span id="gender"></span></li>
+              <li>Father's Name: <span id="father"></span></li>
+              <li>Mother's Name: <span id="mother"></span></li>
+          </ul>
+        </div>
+        <div>
+            <h2>Education</h2>
+            <table>
+                <thead>
+                    <th>class</th>
+                    <th>%</th>
+                    <th>Board / College</th>
+                    <th>Passing Year</th>
+                </thead>
+                <tbody>
+                     
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2>Skills</h2>
+            <p>&#9679 <span id="skills"></span></p>
+        </div>
+        <div>
+            <h2>Hobbies</h2>
+            <p>&#9679 <span id="hobbies"></span></p>
+        </div>
+        <div>
+            <h2>Languages</h2>
+            <p>&#9679 <span id="languages"></span></p>
+        </div>
+        <div>
+            <h2>Declaration</h2>
+            <p>I solemnly declare that all above information is correct to the best of my knowledge and belief.</p><br><br>
+            <div id="end">
+            <p>Date</p>
+            <p>Sign</p> 
+           </div>
+        </div>
+
+          </div>
+    </div>
+    <a href="./form.html">Back to forms</a><br>
+    <script src = "./main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script> 
+    var doc = new jsPDF();
+    var resume = document.getElementById("content");
+    doc.fromHTML(resume,15,15);
+    doc.save("Resume.pdf");
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+ 

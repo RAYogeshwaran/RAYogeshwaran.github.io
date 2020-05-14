@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Resume</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body style="font-family:Roboto, sans-serif;">
+    <div id="form_heading">
+    <h1>Fill Your details</h1>
+    </div>
+    <div id ="form">
+    <form action="./resume.html" method="GET">
+    <div class = "white_field">
+        <label for = "name">Name: </label>
+        <input type="text" name = "name" id = "name" required>
+    </div>
+    <div class = "grey_field">
+        <label for = "age">Age:</label>
+        <input type="number" name = "age" id = "age" max="150" min="1"  required>
+    </div>
+    <div class = "white_field">
+        <label>Gender : </label>
+        <label for = "gender">Male</label>
+        <input type="radio" name = "gender" id = "gender" value = "Male"  >
+        <label for = "gender">Female</label>
+        <input type="radio" name = "gender" id = "gender"  value = "Female" required>
+    </div>
+    <div class = "grey_field">
+        <label for = "dob">DOB :</label>
+        <input type="date" name = "dob" id = "dob" required>
+    </div>
+    <div class = "white_field">
+        <label for = "email">Email :</label>
+        <input type="email" name = "email" id = "email" placeholder="abc@mail.com" required>
+    </div>
+    <div class = "grey_field">
+        <label for = "phone">Mobile.No :</label>
+        <input type="number" name = "phone" id = "phone" required>
+    </div>
+    <div class = "white_field">
+        <label for = "father">Father's Name :</label>
+        <input type="text" name = "father" id = "father" required>
+    </div>
+    <div class = "grey_field">
+        <label for = "mother">Mother's Name :</label>
+        <input type="text" name = "mother" id = "mother" required>
+    </div>
+    <div id = "Qualification"  class = "white_field">
+        <p>Educational Qualification: </p>
+        <div id = "Edu_Field1" >
+            <div>
+                <label for = "class1">Class :</label>
+                <input type = "text" id = "class1" name = "class1" required>
+            </div>
+            <div>
+                <label for = "marks1">Grades/Marks :</label>
+                <input type = "text" id = "marks1" name = "marks1" required>
+            </div>
+            <div>
+            <label for = "degree1">Institution Name :</label>
+            <input type = "text" name = "degree1" id = "degree1" placeholder = "" required>
+        </div>
+        <div>
+            <label for = "year1">Year:</label>
+            <input type = "text" name = "year1" id = "year1" placeholder = "yyyy " required>
+        </div>
+        </div>   
+    </div>
+    <div>
+         <input type="button" id = "addField" value="Add More">
+   </div>
+   <div class = "grey_field">
+       <p>Skills <span>(we recommend you to give 4-5 skills)</span></p>
+       <label for="skill1">Skill1:</label>
+       <input list="skill1" name="skill1" multiple required>
+       <datalist id = "skill1" >
+           <option value = "Active Listening"></option>
+           <option value = "Adaptability"></option>
+           <option value = "Communication"></option>
+           <option value = "Creativity"></option>
+           <option value = "Critical Thinking"></option>
+           <option value = "Customer Service"></option>
+           <option value = "Decision Making"></option>
+           <option value = "Interpersonal Communication"></option>
+           <option value = "Management"></option>
+           <option value = "Leadership"></option>
+           <option value = "Organization"></option>
+           <option value = "Public Speaking"></option>
+           <option value = "Problem-solving"></option>
+           <option value = "Teamwork"></option>
+       </datalist><br>
+       <label for="skill2">Skill2:</label>
+       <input list="skill2" name="skill2" multiple required>
+       <datalist id = "skill2" >
+           <option value = "Active Listening"></option>
+           <option value = "Adaptability"></option>
+           <option value = "Communication"></option>
+           <option value = "Creativity"></option>
+           <option value = "Critical Thinking"></option>
+           <option value = "Customer Service"></option>
+           <option value = "Decision Making"></option>
+           <option value = "Interpersonal Communication"></option>
+           <option value = "Management"></option>
+           <option value = "Leadership"></option>
+           <option value = "Organization"></option>
+           <option value = "Public Speaking"></option>
+           <option value = "Problem-solving"></option>
+           <option value = "Teamwork"></option>
+       </datalist><br>
+       <label for="skill3">Skill3:</label>
+       <input list="skill3" name="skill3" multiple required>
+       <datalist id = "skill3" >
+           <option value = "Active Listening"></option>
+           <option value = "Adaptability"></option>
+           <option value = "Communication"></option>
+           <option value = "Creativity"></option>
+           <option value = "Critical Thinking"></option>
+           <option value = "Customer Service"></option>
+           <option value = "Decision Making"></option>
+           <option value = "Interpersonal Communication"></option>
+           <option value = "Management"></option>
+           <option value = "Leadership"></option>
+           <option value = "Organization"></option>
+           <option value = "Public Speaking"></option>
+           <option value = "Problem-solving"></option>
+           <option value = "Teamwork"></option>
+       </datalist><br>
+       <label for="skill4">Skill4:</label>
+       <input list="skill4" name="skill4" multiple required>
+       <datalist id = "skill4" >
+           <option value = "Active Listening"></option>
+           <option value = "Adaptability"></option>
+           <option value = "Communication"></option>
+           <option value = "Creativity"></option>
+           <option value = "Critical Thinking"></option>
+           <option value = "Customer Service"></option>
+           <option value = "Decision Making"></option>
+           <option value = "Interpersonal Communication"></option>
+           <option value = "Management"></option>
+           <option value = "Leadership"></option>
+           <option value = "Organization"></option>
+           <option value = "Public Speaking"></option>
+           <option value = "Problem-solving"></option>
+           <option value = "Teamwork"></option>
+       </datalist><br>
+       <label for="skill5">Skill5:</label>
+       <input list="skill5" name="skill5" multiple>
+       <datalist id = "skill5" >
+           <option value = "Active Listening"></option>
+           <option value = "Adaptability"></option>
+           <option value = "Communication"></option>
+           <option value = "Creativity"></option>
+           <option value = "Critical Thinking"></option>
+           <option value = "Customer Service"></option>
+           <option value = "Decision Making"></option>
+           <option value = "Interpersonal Communication"></option>
+           <option value = "Management"></option>
+           <option value = "Leadership"></option>
+           <option value = "Organization"></option>
+           <option value = "Public Speaking"></option>
+           <option value = "Problem-solving"></option>
+           <option value = "Teamwork"></option>
+       </datalist><br>
+   </div>
+   <div class = "white_field">
+       <p>Hobbies <span>(we recommend 2-3)</span></p>
+       <label for = "hobbie1">Hobbies 1</label>
+       <input type = "text" name = "hobbie1" id = "hobbie1" required><br>
+       <label for = "hobbie2">Hobbies 2</label>
+       <input type = "text" name = "hobbie2" id = "hobbie2" required><br>
+       <label for = "hobbie3">Hobbies 3</label>
+       <input type = "text" name = "hobbie3" id = "hobbie3"><br>
+   </div>
+   <div class = "grey_field">
+       <p>Languages you know</p>
+       <label for="language1">Language 1</label>
+       <input list="language1" name = "language1" required>
+       <datalist id="language1">
+           <option value="English"></option>
+           <option value="Hindi"></option>
+           <option value="Tamil"></option>
+           <option value="Gujrati"></option>
+           <option value="rajanthani"></option>
+           <option value="telugu"></option>
+       </datalist><br>
+        <label for="language2">Language 2</label>
+       <input list="language2" name = "language2">
+       <datalist id="language2">
+           <option value="English"></option>
+           <option value="Hindi"></option>
+           <option value="Tamil"></option>
+           <option value="Gujrati"></option>
+           <option value="rajanthani"></option>
+           <option value="telugu"></option>
+       </datalist><br>
+        <label for="language3">Language 3</label>
+       <input list="language3" name = "language3">
+       <datalist id="language3">
+           <option value="English"></option>
+           <option value="Hindi"></option>
+           <option value="Tamil"></option>
+           <option value="Gujrati"></option>
+           <option value="rajanthani"></option>
+           <option value="telugu"></option>
+       </datalist>
+   </div>
+   <div  class = "white_field">
+       <label for = "objective">Objective</label>
+       <input type="text" name = "objective" id="objective" required>
+   </div>
+    <br>
+    <div id="form_submit">
+       <a><input type = "submit" id = "submit"></a> 
+    </div><br><br>
+</form>
+</div>
+ 
+<script src="./add.js"></script>
+</body>
+</html>
