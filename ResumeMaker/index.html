@@ -12,7 +12,7 @@
     <h1>Resume4U.com</h1>
     <div id="index_nav">
         <a href="./form.html" target="_blank"><button>Resume</button></a>
-        <button>Contact Us</button>
+        <a><button onclick="contact_fun()">Contact Us</button></a>
     </div>
     
 </div>
@@ -21,7 +21,25 @@
     <p>Build your Resume easily within 2 minutes. </p><br>
     <p>Using <strong>Resume4U.com</strong></p><br>
     <a href="./form.html" target="_blank"><button>Create Resume</button></a>
-    
 </div>
+<script>
+    let temp = 1;
+    const contact = document.createElement("p");
+    contact.id = "contact_info";
+    contact.innerHTML = "This Website is created by R A Yogeshwaran. Mobile No. - 1234567890 E-mail- abc@gmail.com";
+    document.getElementById("index_content").appendChild(contact);
+    contact.style.background = "white";
+    document.getElementById("contact_info").hidden = true;
+    function contact_fun() {
+        if(temp == 1){
+            document.getElementById("contact_info").hidden = false;
+            temp=0;
+        }
+        else if(temp == 0){
+        temp = 1;
+        document.getElementById("contact_info").hidden = true;
+        }
+    }
+</script>
 </body>
 </html>
