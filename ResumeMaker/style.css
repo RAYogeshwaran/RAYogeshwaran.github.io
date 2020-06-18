@@ -11,13 +11,13 @@ body {
  #heading {
      width: 100%;;
     max-height: 80px;
-    background-color: rgba(221, 211, 211,0.69);
+    background-color: rgba(221, 211, 211,0.75);
     color: black;
     font-family:'Roboto', sans-serif;
-    text-align: left;
+     
     padding: 20px 30px; 
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     flex-wrap: wrap;
 
 } 
@@ -25,9 +25,15 @@ body {
     margin: 0;
     float: right;
 } */
+#heading #name {
+    text-decoration: none;
+    color: black;
+     
+    
+}
 #heading h1 {
      
-    margin-right: auto;
+    
 }
  
 #heading button {

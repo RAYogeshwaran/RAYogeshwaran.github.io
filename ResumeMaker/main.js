@@ -40,6 +40,6 @@ let accessContent = document.getElementById("content");
    
   }
    
-  document.getElementById("skills").innerHTML = obj["skill1"]+","+obj["skill2"]+","+obj["skill3"]+","+obj["skill4"]+","+obj["skill1"];
+  document.getElementById("skills").innerHTML = obj["skill1"]+","+obj["skill2"]+","+obj["skill3"]+","+obj["skill4"]+","+obj["skill5"];
   document.getElementById("hobbies").innerHTML = obj["hobbie1"]+","+obj["hobbie2"]+","+obj["hobbie3"];
   document.getElementById("languages").innerHTML = obj["language1"]+","+obj["language2"]+","+obj["language3"];
