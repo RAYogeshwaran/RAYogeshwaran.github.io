@@ -1,0 +1,51 @@
+ * {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+ }
+   body {
+    width: 100%;
+     background-color: #FF1D58;
+   }
+ 
+
+#heading {
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 5vw;
+    font-family: 'Pacifico', cursive;
+    padding: 2vw 0;
+    text-align: center;
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#message {
+    display: flex;
+    justify-content: space-around; 
+    padding-top: 6vw;
+}
+#message p {
+    background-color: blanchedalmond;
+    font-size: 2.4vw;
+    padding: 2vw;;
+    border-radius: 1vw;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+
+}
+#images{
+     width: 80%;
+    margin: 0 auto;
+}
+#images img {
+    margin: 10vw 0;
+    height: 80vh;
+    width: 80vw;
+}
+#footer {
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: end;
+}
