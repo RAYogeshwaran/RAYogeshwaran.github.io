@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HBD Ashwin Sahya</title>
+    <title>HBD Ashwin Sathya</title>
     <link href="styles.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script>
+        let music = new Audio();
+        music.src = "./kalki_mass_bgm.mp3";
+         
+        
+    </script>
 </head>
-<body>
+<body onscroll="music.play()" id = "body">
     <div id="heading">
         <p>Happy Birthday Ashwin Bro 🎂</p>
          
@@ -26,12 +32,13 @@
         <img src="./ash2.jpg">
         <img src="./ash3.jpg">
     </div>
-    <div id="footer">
+    <div id="footer">  
         <p>Made with ❤ by Yogesh</p>
     </div><br>
-         
-    <embed src="./kalki mass bgm.mp3" loop="false" autostart="true" hidden="false" width="100%" > 
-         
+    <audio controls >
+        <source src="./kalki_mass_bgm.mp3">
+    </audio>
     
+     
 </body>
 </html>
