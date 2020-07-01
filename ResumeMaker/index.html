@@ -12,7 +12,7 @@
     <a href="index.html" id="name"><h1>Resume4U.com</h1></a>
     <div id="index_nav">
         <a href="./form.html" target="_blank"><button>Resume</button></a>
-        <a><button onclick="contact_fun()">Contact Us</button></a>
+        <a><button onclick="contact_fun()">Contact Me</button></a>
     </div>
     
 </div>
@@ -22,22 +22,36 @@
     <p>Using <strong>Resume4U.com</strong></p><br>
     <a href="./form.html" target="_blank"><button>Create Resume</button></a>
 </div>
+<div id="contact-me">
+    <h2>About Me</h2>
+    <p>This website which you are looking at is created by me : R A Yogeshwaran</p>
+    <p>OK! I know its not that super cool😆, This is a beginner level project</p>
+    <p>Thank You for Reading this - Have a good day.</p>
+    <h3>Contact Me</h3>
+    <ul>
+        <li>Mobile : 123456789</li>
+        <li>E-mail : yogeshwaran1632@gmail.com</li>
+        <li>Address : 4/253, UP</li>
+    </ul>
+    <p>This is just a simple working </p>
+</div>
 <script>
     let temp = 1;
-    const contact = document.createElement("p");
-    contact.id = "contact_info";
-    contact.innerHTML = "This Website is created by R A Yogeshwaran. Mobile No. - 1234567890 E-mail- abc@gmail.com";
-    document.getElementById("index_content").appendChild(contact);
-    contact.style.background = "white";
-    document.getElementById("contact_info").hidden = true;
-    function contact_fun() {
+    // const contact = document.createElement("p");
+    // contact.id = "contact_info";
+    // contact.innerHTML = "This Website is created by R A Yogeshwaran. Mobile No. - 1234567890 E-mail- abc@gmail.com";
+    // document.getElementById("index_content").appendChild(contact);
+    // contact.style.background = "white";
+    // document.getElementById("contact_info").hidden = true;
+    document.getElementById("contact-me").hidden = true;
+     function contact_fun() {
         if(temp == 1){
-            document.getElementById("contact_info").hidden = false;
+            document.getElementById("contact-me").hidden = false;
             temp=0;
         }
         else if(temp == 0){
         temp = 1;
-        document.getElementById("contact_info").hidden = true;
+        document.getElementById("contact-me").hidden = true;
         }
     }
 </script>

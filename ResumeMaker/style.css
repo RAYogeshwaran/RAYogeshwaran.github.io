@@ -31,10 +31,6 @@ body {
      
     
 }
-#heading h1 {
-     
-    
-}
  
 #heading button {
  border-radius: 5px; 
@@ -95,6 +91,9 @@ body {
         
         padding: 5px 5px;
     }
+}
+#contact-me {
+    background-color: #D3D3D3;
 }
 
 
