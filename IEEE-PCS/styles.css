@@ -251,7 +251,7 @@ body {
 .backToMain {
     background-color: #242582;   
 }
-.backToMain  a:visited {
+.backToMain a{
     color: azure;
     text-decoration: none;
 }
