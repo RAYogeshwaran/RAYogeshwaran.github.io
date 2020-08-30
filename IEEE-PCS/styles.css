@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid blanchedalmond; */
+} 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%
+}
+.navBar {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+
+}
+ .navBarLogo {
+    padding:  10px 10px ;
+    margin-right: auto;
+ }
+ .navBarLogo img {
+     width: 30vh;
+ }
+.navBarElement {
+    margin-right: 20px;
+    color: honeydew;
+    align-self: center;
+    text-decoration: none;
+}
+ @media only screen and (max-width: 480px) {
+     .navBar p{
+        font-size: 4vw;
+     }
+ }
+ 
+.mainSlogan h1{
+    font-size: 5vw;
+    color:black;
+}
+.mainSlogan {
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(224, 230, 231, 0.325);
+    padding: 10px;
+    border: 2px solid black ;
+    margin: 0 auto;
+}
+.mainSide {
+    background-image: url("./media/image1.jpg");
+    background-size: 100vw 84vh;
+    height: 84vh;
+    width: 100%;
+}
+
+.mainSide1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 84vh;
+    width: 100%;
+    background-color: rgba(221, 211, 211,0.45);
+    
+}
+@media only screen and (max-width: 480px) {
+    .mainSide {
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .mainSide1 {
+        height: 50vh;
+    }
+}
+.mainSide1 p {
+    font-size: 4vw;
+    font-weight: 400;
+    background-color: rgba(224, 230, 231, 0.325); ;
+    padding: 4px;
+    border-radius: 4px;
+    border: 4px solid black;
+    color: black;
+}
+
+@media only screen and (max-width: 480px) {
+    .mainSide1 p {
+        font-size: 8vw;
+    }
+ 
+}
+
+.middle .head {
+    background-color: rgba(224, 211, 20, 0.877);
+}
+.middle .head h1 {
+    padding: 3vh;
+    font-size: 7vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.aboutUs {
+    text-align: center;
+    
+    
+}
+
+.aboutUs img {
+    width: 60vw;
+    height: 40vw;
+    margin: 0 auto;
+    border: 4px solid black;
+    border-radius: 4px;
+}
+.aboutUsBackground {
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png");
+    background-size: cover;
+     
+}
+.aboutUs .image {
+    padding-top: 10px;
+}
+.para {
+    padding: 10px;
+}
+
+.para p {
+    font-size: 4vh;
+    color: whitesmoke;
+}
+
+.event1,.event2 {
+    display: flex;
+   
+}
+
+.E_image img {
+    width: 25vw;
+    height: 25vw;
+    padding: 5px;
+}
+.E_content {
+    padding: 10px;
+}
+.E_content p {
+    font-size: 20px;
+    padding-top: 5px;
+    line-height: 25px;
+}
+.E_bgColor1 {
+    background-color: rgba(192, 177, 177, 0.842);
+}
+
+.E_bgColor2 {
+    background-color: white;
+}
+@media only screen and (max-width: 750px) {
+    .event1,.event2 {
+        flex-wrap: wrap;
+    }
+    .E_image img {
+        width: 60vw;
+        height: 60vw;
+    }
+    .E_image {
+        margin: 0 auto;
+    }
+}
+.contactUs h1 {
+    padding: 30px;
+}
+.contactUs form{
+    padding: 30px;
+    
+}
+.contactUs form label {
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contactUs form input {
+    height: 25px;
+    border: 2px solid black;
+}
+.contactUs form button {
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+ #message {
+     border: 2px solid black;
+     resize: none;
+ }
+
+ .bottom {
+     display: flex;
+     justify-content: space-around;
+     background-image: url("./media/cool-background.png");
+     flex-wrap: wrap;
+ }
+ .address {
+     text-align: center;
+     padding: 30px;
+     padding-top: 90px;
+ }
+ .address p {
+     font-weight: 600;
+ } 
+ .address img {
+     border-radius: 100%;
+ }
+ .footer {
+     background-color: rgb(173, 13, 139);
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ .footer p {
+     padding: 20px;
+     margin: 0 auto;
+     font-size: 20px;
+ }
+ .footer img {
+     margin-left: auto;
+ }
+ @media only screen and (max-width: 480px)
+ {
+     .footer img {
+         margin: 0 auto
+     }
+ }
+/*////// CSS for team.html //////////*/
+
+.teamHeader {
+    height: 8vw;
+    background-color: rgba(0, 0, 0, 0.233);
+    padding: 2vw;
+    text-align: center;
+}
+ .teamHeader h1 {
+    font-size: 4vw;
+    font-family: sans-serif;
+ }
+.teamMemberContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2vh;
+    background-color: #242582;
+}
+.backToMain {
+    background-color: #242582;   
+}
+.backToMain  a:visited {
+    color: azure;
+    text-decoration: none;
+}
+.teamMembers {
+    text-align: center;
+    flex-basis: 360px;
+    padding: 40px;
+}
+
+.teamMembers p{
+    padding-top: 10px;
+    padding-bottom: 3px;;
+    color: white;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+    background-color:rgba(0, 0, 0, 0.432);
+    border-radius: 40px;
+    font-size: 18px;
+    
+}
