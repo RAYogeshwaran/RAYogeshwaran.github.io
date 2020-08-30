@@ -101,6 +101,11 @@ body {
     font-size: 7vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+@media only screen and (max-width: 480px) {
+    .middle .head h1 {
+        font-size: 3vh;
+    }
+}
 
 .aboutUs {
     text-align: center;
@@ -114,6 +119,12 @@ body {
     margin: 0 auto;
     border: 4px solid black;
     border-radius: 4px;
+}
+@media only screen and (max-width: 480px) {
+    .aboutUs img {
+        width: 82vw;
+        height: 60vw;
+    }
 }
 .aboutUsBackground {
     background-image: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png");
