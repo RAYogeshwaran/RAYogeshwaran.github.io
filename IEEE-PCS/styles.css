@@ -95,6 +95,7 @@ body {
 
 .middle .head {
     background-color: rgba(224, 211, 20, 0.877);
+    text-align: center;
 }
 .middle .head h1 {
     padding: 3vh;
