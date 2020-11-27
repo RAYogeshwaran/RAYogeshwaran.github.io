@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="heading">
+        <h1>Rock - Paper - Scissors</h1>
+    </div>
+    <div id="message">
+        <h2>Let's Start !!</h2>
+    </div>
+    <div id="play-board">
+        <div id="play-area">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Player</th>
+                        <th>Computer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr id="row1">
+                    <td>
+                        <div id="rock">
+                            <img src="./Rock.png" alt="Image of Rock"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr id="row2">
+                    <td>
+                        <div id="paper">
+                            <img src="./Paper.png" alt="Image of Paper"/>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="computer_choice">
+                            <img src="./question-mark.png" alt="Question mark Image">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="scissors">
+                            <img src="./Scissors.png" alt="Image of Scissors"/>
+                        </div>
+                    </td>
+                </tr>
+             
+            
+                </tbody>
+            </table>
+        </div>
+        <div id="score">
+            <h3>Score</h3>
+            <h3><span id="playerScore">0</span> - <span id="computerScore">0</span></h3>
+        </div>
+        <div id="reset">
+            <h2>Reset</h2>
+        </div>
+    </div>
+    <div id="footer">
+        <h2>Thanks for playing :)</h2>
+        <h3>Have a good day</h3>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

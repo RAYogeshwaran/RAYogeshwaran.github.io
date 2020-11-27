@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    background-color: rgb(93, 93, 230);
+}
+table {
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 1vw 2.5vw;
+}
+#heading h1{
+    font-size: 3vw;
+    font-family: 'Sansita Swashed', cursive;
+}
+#message h2 {
+    font-size: 2vw;
+    font-family: cursive;
+    background-color: deeppink;
+    padding: 5px 0 ;
+}
+table th {
+    font-size: 2vw;
+    font-family: sans-serif;
+}
+img {
+    height: 12vw;
+}
+#paper img, #rock img, #scissors img {
+    cursor: pointer;
+} 
+#score {
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+#reset h2{
+    width: fit-content;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornsilk;
+}
+#footer h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+}
+#footer h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+}
+@media only screen and (max-width: 600px) {
+    table {
+        margin: 0 auto;
+        border: 2px solid black;
+        padding: 3vw 5vw;
+    }
+    #heading h1{
+        font-size: 6vw;
+    }
+    #message h2 {
+        font-size: 5vw;
+    }
+    table th {
+        font-size: 4vw;
+    }
+    img {
+        height: 26vw;
+    }
+    #score {
+        font-size: 5vw;
+        font-family: 'Courier New', Courier, monospace;
+         
+    }
+    #reset h2{
+        width: fit-content;
+        cursor: pointer;
+        margin: 0 auto;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #footer h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4vw;
+    }
+    #footer h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4vw;
+    }
+}
